@@ -1,7 +1,9 @@
 package org.example.tcp;
 
 import java.io.DataInputStream;
+import java.io.DataOutput;
 import java.io.DataOutputStream;
+import java.lang.reflect.Array;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
@@ -45,4 +47,6 @@ public class DataStream {
             e.printStackTrace();
         }
     }
+
+
 }
